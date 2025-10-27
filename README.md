@@ -1,3 +1,5 @@
+![Alt text](src/image/logo.png)
+
 # AIMSQ
 
 Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie d'un artiste sélectionné avec une option de recherche d'artiste équivalent.
