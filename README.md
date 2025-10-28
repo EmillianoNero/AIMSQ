@@ -8,8 +8,7 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 - Front-end : ---------- 0%
 
-- Back-end : |--------- 10%
-
+- Back-end : ||-------- 20%
 
 ## Structure
 
@@ -21,9 +20,17 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ### Côté Python
 
+Se déplacer dans le bon repertoire :
+
+    cd src/python
+
+Créer l'environement python :
+
+    python -m venv .venv  
+
 Démarrer l'environement python :
 
-    .\src\python\venv\Scripts\Activate.ps1
+    .venv\Scripts\Activate.ps1
 
 Télécharger les dépendances :
 

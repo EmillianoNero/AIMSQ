@@ -1,0 +1,17 @@
+meta {
+  name: similar artist
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://127.0.0.1:8000/artist
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "artist":"acdc"
+  }
+}

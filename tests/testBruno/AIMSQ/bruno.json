@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "AIMSQ",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
