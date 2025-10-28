@@ -16,11 +16,13 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ### Back-End Python
 
-## Installation
+La liste des endpoints dans ce [fichier](/src/python/API%20request.md).
+
+## Installations
 
 ### Côté Python
 
-Se déplacer dans le bon repertoire :
+Se déplacer dans le bon répertoire :
 
     cd src/python
 
@@ -35,6 +37,4 @@ Démarrer l'environement python :
 Télécharger les dépendances :
 
     pip install -r requirements.txt
-
-
 
