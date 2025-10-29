@@ -1,6 +1,14 @@
+![Alt text](src/image/logo.png)
+
 # AIMSQ
 
-Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie d'un artiste recherché avec une option de sélection d'artiste équivalent.
+Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie d'un artiste sélectionné avec une option de recherche d'artiste équivalent.
+
+## Avancée du projet
+
+- Front-end : ---------- 0%
+
+- Back-end : ||-------- 20%
 
 ## Structure
 
@@ -8,17 +16,25 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ### Back-End Python
 
-## Installation
+La liste des endpoints dans ce [fichier](/src/python/API%20request.md).
+
+## Installations
 
 ### Côté Python
 
+Se déplacer dans le bon répertoire :
+
+    cd src/python
+
+Créer l'environement python :
+
+    python -m venv .venv  
+
 Démarrer l'environement python :
 
-    .\src\python\venv\Scripts\Activate.ps1
+    .venv\Scripts\Activate.ps1
 
 Télécharger les dépendances :
 
     pip install -r requirements.txt
-
-
 
