@@ -3,7 +3,9 @@
 ### GET
 
 - /hello -> hello world, test request
+- /getArtistId -> body: {"artist": "..."} -> get artist id
+- /getArtistAlbum -> body: {"artist": "..."} -> get all artist album
 
 ### POST
 
-- /artist -> body: {"artist": "..."} -> returns three similar artists
+- /similarArtist -> body: {"artist": "..."} -> returns three similar artists

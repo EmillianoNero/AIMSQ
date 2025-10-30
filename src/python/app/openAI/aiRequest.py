@@ -13,9 +13,14 @@ client = OpenAI(
 # ask ai api and return response
 def getAiArtistResponse(mess: str):
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
-        messages=[{"role": "user", "content": "Give me three artist names similar to " + mess}]
+        model="llama-3.3-70b-versatile",
+        messages=[{"role": "user", "content": "Give me three musical artist similar to " 
+                   + mess 
+                   + " taking into account the preferred style of music that this artist produces, the language in which they are sung and their popularity"}]
     )
-    return getArtist(response.choices[0].message.content)
+    return {
+        "artists":getArtist(response.choices[0].message.content), 
+        "full-content":response.choices[0].message.content
+        }
 
     
