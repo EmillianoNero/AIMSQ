@@ -19,8 +19,7 @@ def getAiArtistResponse(mess: str):
                    + " taking into account the preferred style of music that this artist produces, the language in which they are sung and their popularity"}]
     )
     return {
-        "artists":getArtist(response.choices[0].message.content), 
-        "full-content":response.choices[0].message.content
+        "artists":getArtist(response.choices[0].message.content)
         }
 
     

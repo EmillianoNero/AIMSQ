@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.requestBody.search import Search
 from app.openAI.aiRequest import getAiArtistResponse
-from app.soptifyApi.spotifyRequest import getArtistId, getArtistAlbum, getArtistTrackList
+from app.soptifyApi.spotifyRequest import getArtistId, getArtistAlbum
 
 app=FastAPI()
 
