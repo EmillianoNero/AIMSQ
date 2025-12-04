@@ -6,14 +6,18 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ## Avancée du projet
 
-- Front-end : ---------- 0%
+- Front-end : [░░░░░░░░░░] 0%
 
-- Back-end : ||-------- 20%
+- Back-end : [██░░░░░░░░] 20%
+
+
+
+![](https://geps.dev/progress/32?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ## Structure
 
 ### Front-end React
-
+z
 ### Back-End Python
 
 La liste des endpoints dans ce [fichier](/src/python/API%20request.md).

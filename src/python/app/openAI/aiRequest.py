@@ -6,8 +6,8 @@ from app.openAI.messageProcessing import getArtist
 load_dotenv()
 # get .env variable
 client = OpenAI(
-    api_key=os.environ["OPENAI_API_KEY"], # key setup in grok website
-    base_url=os.environ["OPENAI_BASE_URL"] # link to grok
+    api_key=os.environ["OPENAI_API_KEY"], # key setup in groq website
+    base_url=os.environ["OPENAI_BASE_URL"] # link to groq
 )
 
 # ask ai api and return response
