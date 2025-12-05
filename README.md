@@ -6,9 +6,9 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ## Avancée du projet
 
-- Front-end : [░░░░░░░░░░] 0%
+- Front-end : [██░░░░░░░░] 20%
 
-- Back-end : [██░░░░░░░░] 20%
+- Back-end : [███░░░░░░░] 30%
 
 
 
@@ -41,4 +41,9 @@ Démarrer l'environement python :
 Télécharger les dépendances :
 
     pip install -r requirements.txt
+
+Lancer l'api :
+
+    uvicorn app.main:app --reload
+    
 
