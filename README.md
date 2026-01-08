@@ -6,9 +6,9 @@ Projet mélangeant web, musique et IA, ayant pour but de fournir la discographie
 
 ## Avancée du projet
 
-- Front-end : [███░░░░░░░] 30%
+- Front-end : [█████░░░░░] 50%
 
-- Back-end : [███░░░░░░░] 30%
+- Back-end : [█████░░░░░] 50%
 
 ## Structure
 
